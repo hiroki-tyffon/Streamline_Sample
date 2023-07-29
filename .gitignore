@@ -1,0 +1,6 @@
+﻿CMakeFiles
+*.tlog
+*.obj
+*.log
+.vs
+*.recipe

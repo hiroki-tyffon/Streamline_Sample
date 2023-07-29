@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\common\dxgi-format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-commandlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-queries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-resource-bindings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include\nvrhi\d3d11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\common\dxgi-format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\src\d3d11\d3d11-backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D561AB34-E152-3D3B-8277-D1C9D70228A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E7949842-3EBA-315A-8A15-8D8AF7D37BAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

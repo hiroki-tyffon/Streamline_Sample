@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\AudioCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\AudioEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\BindingCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\CommonRenderPasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\ConsoleInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\ConsoleObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\DDSFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\DescriptorTableManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\FramebufferFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\GltfImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\IesProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\KeyframeAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\MaterialBindingCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\SceneGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\SceneTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\ShaderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\TextureCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\stb_impl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\AudioCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\AudioEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\BindingCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\CommonRenderPasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\ConsoleInterpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\ConsoleObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\DDSFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\DescriptorTableManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\FramebufferFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\GltfImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\IesProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\KeyframeAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\MaterialBindingCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\SceneGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\SceneTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\ShaderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\ShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\TextureCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\engine\View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\engine\dds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D561AB34-E152-3D3B-8277-D1C9D70228A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E7949842-3EBA-315A-8A15-8D8AF7D37BAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

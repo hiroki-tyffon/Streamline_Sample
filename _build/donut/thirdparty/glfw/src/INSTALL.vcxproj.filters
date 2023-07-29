@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\073297519cf30291d361f1fd707174bd\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33A6CB40-0A28-3747-A137-AD3AC8BD715F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

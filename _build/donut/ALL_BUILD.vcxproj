@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6ABC84AB-2D41-34B2-8D9C-9621573CDC93}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/donut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/donut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCdxil.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCspirv.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindFXC.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/donut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/donut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCdxil.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCspirv.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindFXC.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/donut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/donut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCdxil.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCspirv.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindFXC.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/donut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/donut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCdxil.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindDXCspirv.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\cmake\FindFXC.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\ZERO_CHECK.vcxproj">
+      <Project>{7D83CE39-5F1B-3C14-88FB-41809CA565CC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{0ADB6FB1-D035-37EF-9C7B-4C55FD23DC39}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\imgui.vcxproj">
+      <Project>{C1426F13-1E7F-353F-A128-DC41BFFE762F}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\src\lib_json\jsoncpp_static.vcxproj">
+      <Project>{76C72C29-975C-32D1-83D3-0A8A5647997E}</Project>
+      <Name>jsoncpp_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz\miniz.vcxproj">
+      <Project>{3E66D8A3-9D93-3A0A-97C1-EA0D68C70FC2}</Project>
+      <Name>miniz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi.vcxproj">
+      <Project>{F6483AD4-18FE-3F9C-93E9-F50332217813}</Project>
+      <Name>nvrhi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi_d3d11.vcxproj">
+      <Project>{DDF26FBF-BB29-3F9A-87EC-48EC8CF0C7B8}</Project>
+      <Name>nvrhi_d3d11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi_d3d12.vcxproj">
+      <Project>{C2641F46-386A-3E0D-945F-32194AF8E35E}</Project>
+      <Name>nvrhi_d3d12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi_vk.vcxproj">
+      <Project>{1A95D9EB-C766-3016-847D-3F38B9106663}</Project>
+      <Name>nvrhi_vk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\tools\shaderCompiler\shaderCompiler.vcxproj">
+      <Project>{C20C598F-9148-33D6-82D8-787862A0F6F8}</Project>
+      <Name>shaderCompiler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\BloomPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\CascadedShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\DeferredLightingPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\DepthPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\DrawStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\EnvironmentMapPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\ForwardShadingPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\GBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\GBufferFillPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\GeometryPasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\JointsRenderPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\LightProbeProcessingPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\MipMapGenPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\PixelReadbackPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\PlanarShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\SkyPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\SsaoPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\TemporalAntiAliasingPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\src\render\ToneMappingPasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\BloomPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\CascadedShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\DeferredLightingPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\DepthPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\DrawStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\EnvironmentMapPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\ForwardShadingPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\GBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\GBufferFillPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\GeometryPasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\JointsRenderPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\LightProbeProcessingPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\MipMapGenPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\PixelReadbackPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\PlanarShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\SkyPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\SsaoPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\TemporalAntiAliasingPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include\donut\render\ToneMappingPasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D561AB34-E152-3D3B-8277-D1C9D70228A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E7949842-3EBA-315A-8A15-8D8AF7D37BAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

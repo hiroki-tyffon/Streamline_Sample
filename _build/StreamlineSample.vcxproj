@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugRemote|x64">
+      <Configuration>DebugRemote</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34AB296B-5FF9-3E3C-911B-326A058B1F03}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>StreamlineSample</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StreamlineSample.dir\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">StreamlineSample.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StreamlineSample</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">StreamlineSample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StreamlineSample.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StreamlineSample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StreamlineSample.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StreamlineSample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StreamlineSample.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StreamlineSample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Tyffon/Repositories/ExpoC/Streamline_Sample/streamline/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>donut\Debug\donut_render.lib;donut\Debug\donut_app.lib;donut\Debug\donut_engine.lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\lib\x64\sl.interposer.lib;donut\Debug\donut_core.lib;donut\thirdparty\jsoncpp\src\lib_json\Debug\jsoncpp.lib;donut\thirdparty\Debug\lz4.lib;donut\thirdparty\miniz\Debug\miniz.lib;donut\thirdparty\glfw\src\Debug\glfw3.lib;donut\thirdparty\Debug\imgui.lib;donut\nvrhi\Debug\nvrhi_d3d11.lib;dxgi.lib;donut\nvrhi\Debug\nvrhi_d3d12.lib;d3d12.lib;dxguid.lib;d3d11.lib;donut\nvrhi\Debug\nvrhi_vk.lib;donut\nvrhi\Debug\nvrhi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/Debug/StreamlineSample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_bin/StreamlineSample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Tyffon/Repositories/ExpoC/Streamline_Sample/streamline/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>donut\Debug\donut_render.lib;donut\Debug\donut_app.lib;donut\Debug\donut_engine.lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\lib\x64\sl.interposer.lib;donut\Debug\donut_core.lib;donut\thirdparty\jsoncpp\src\lib_json\Debug\jsoncpp.lib;donut\thirdparty\Debug\lz4.lib;donut\thirdparty\miniz\Debug\miniz.lib;donut\thirdparty\glfw\src\Debug\glfw3.lib;donut\thirdparty\Debug\imgui.lib;donut\nvrhi\Debug\nvrhi_d3d11.lib;dxgi.lib;donut\nvrhi\Debug\nvrhi_d3d12.lib;d3d12.lib;dxguid.lib;d3d11.lib;donut\nvrhi\Debug\nvrhi_vk.lib;donut\nvrhi\Debug\nvrhi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/Debug/StreamlineSample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_bin/StreamlineSample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>set SolutionDir=$(SolutionDir)..\
+robocopy %SolutionDir% \\192.168.3.52%SolutionDir:~2% /MIR /FFT /E /XF *.db *.ipch *.ilk *.tlog *.obj *.log /XD .git *.tlog *.dir
+IF %ERRORLEVEL% LSS 8 EXIT 0
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Tyffon/Repositories/ExpoC/Streamline_Sample/streamline/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>donut\Release\donut_render.lib;donut\Release\donut_app.lib;donut\Release\donut_engine.lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\lib\x64\sl.interposer.lib;donut\Release\donut_core.lib;donut\thirdparty\jsoncpp\src\lib_json\Release\jsoncpp.lib;donut\thirdparty\Release\lz4.lib;donut\thirdparty\miniz\Release\miniz.lib;donut\thirdparty\glfw\src\Release\glfw3.lib;donut\thirdparty\Release\imgui.lib;donut\nvrhi\Release\nvrhi_d3d11.lib;dxgi.lib;donut\nvrhi\Release\nvrhi_d3d12.lib;d3d12.lib;dxguid.lib;d3d11.lib;donut\nvrhi\Release\nvrhi_vk.lib;donut\nvrhi\Release\nvrhi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/Release/StreamlineSample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_bin/StreamlineSample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Tyffon/Repositories/ExpoC/Streamline_Sample/streamline/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>donut\MinSizeRel\donut_render.lib;donut\MinSizeRel\donut_app.lib;donut\MinSizeRel\donut_engine.lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\lib\x64\sl.interposer.lib;donut\MinSizeRel\donut_core.lib;donut\thirdparty\jsoncpp\src\lib_json\MinSizeRel\jsoncpp.lib;donut\thirdparty\MinSizeRel\lz4.lib;donut\thirdparty\miniz\MinSizeRel\miniz.lib;donut\thirdparty\glfw\src\MinSizeRel\glfw3.lib;donut\thirdparty\MinSizeRel\imgui.lib;donut\nvrhi\MinSizeRel\nvrhi_d3d11.lib;dxgi.lib;donut\nvrhi\MinSizeRel\nvrhi_d3d12.lib;d3d12.lib;dxguid.lib;d3d11.lib;donut\nvrhi\MinSizeRel\nvrhi_vk.lib;donut\nvrhi\MinSizeRel\nvrhi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/MinSizeRel/StreamlineSample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_bin/StreamlineSample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Tyffon/Repositories/ExpoC/Streamline_Sample/streamline/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLSSG_ALLOWED;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\nvrhi\thirdparty\Vulkan-Headers\include;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>donut\RelWithDebInfo\donut_render.lib;donut\RelWithDebInfo\donut_app.lib;donut\RelWithDebInfo\donut_engine.lib;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\lib\x64\sl.interposer.lib;donut\RelWithDebInfo\donut_core.lib;donut\thirdparty\jsoncpp\src\lib_json\RelWithDebInfo\jsoncpp.lib;donut\thirdparty\RelWithDebInfo\lz4.lib;donut\thirdparty\miniz\RelWithDebInfo\miniz.lib;donut\thirdparty\glfw\src\RelWithDebInfo\glfw3.lib;donut\thirdparty\RelWithDebInfo\imgui.lib;donut\nvrhi\RelWithDebInfo\nvrhi_d3d11.lib;dxgi.lib;donut\nvrhi\RelWithDebInfo\nvrhi_d3d12.lib;d3d12.lib;dxguid.lib;d3d11.lib;donut\nvrhi\RelWithDebInfo\nvrhi_vk.lib;donut\nvrhi\RelWithDebInfo\nvrhi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/RelWithDebInfo/StreamlineSample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_bin/StreamlineSample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='DebugRemote|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/Streamline_Sample/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/Streamline_Sample -BC:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build --check-stamp-file C:/Tyffon/Repositories/ExpoC/Streamline_Sample/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\RenderTargets.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\SLWrapper.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\StreamlineSample.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\UIData.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\UIRenderer.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\SLWrapper.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\StreamlineSample.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\main.cpp" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\DeviceManagerOverride\DeviceManagerOverride.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\DeviceManagerOverride\DeviceManagerOverride_DX11.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\DeviceManagerOverride\DeviceManagerOverride_DX12.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\src\DeviceManagerOverride\DeviceManagerOverride_VK.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\ZERO_CHECK.vcxproj">
+      <Project>{7D83CE39-5F1B-3C14-88FB-41809CA565CC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\streamline\CopyStreamlineDLLs.vcxproj">
+      <Project>{4BAEB268-259B-383C-8193-9F19EEDDA8F9}</Project>
+      <Name>CopyStreamlineDLLs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\donut_app.vcxproj">
+      <Project>{3633E32E-78B8-3073-B659-AFCE69B77FBB}</Project>
+      <Name>donut_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\donut_core.vcxproj">
+      <Project>{670CA8C3-12D2-3555-A8F2-55499A84BE80}</Project>
+      <Name>donut_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\donut_engine.vcxproj">
+      <Project>{E2AD1E2F-32A4-38CD-BB9A-3D9C1AE7CFDE}</Project>
+      <Name>donut_engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\donut_render.vcxproj">
+      <Project>{4D83B7EC-D79E-3BCF-B9AA-B9706D070B1F}</Project>
+      <Name>donut_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{0ADB6FB1-D035-37EF-9C7B-4C55FD23DC39}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\imgui.vcxproj">
+      <Project>{C1426F13-1E7F-353F-A128-DC41BFFE762F}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\jsoncpp\src\lib_json\jsoncpp_static.vcxproj">
+      <Project>{76C72C29-975C-32D1-83D3-0A8A5647997E}</Project>
+      <Name>jsoncpp_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\lz4.vcxproj">
+      <Project>{DBAF472B-7E44-3FC3-81CE-B75B2E87E90C}</Project>
+      <Name>lz4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\thirdparty\miniz\miniz.vcxproj">
+      <Project>{3E66D8A3-9D93-3A0A-97C1-EA0D68C70FC2}</Project>
+      <Name>miniz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi.vcxproj">
+      <Project>{F6483AD4-18FE-3F9C-93E9-F50332217813}</Project>
+      <Name>nvrhi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi_d3d11.vcxproj">
+      <Project>{DDF26FBF-BB29-3F9A-87EC-48EC8CF0C7B8}</Project>
+      <Name>nvrhi_d3d11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi_d3d12.vcxproj">
+      <Project>{C2641F46-386A-3E0D-945F-32194AF8E35E}</Project>
+      <Name>nvrhi_d3d12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\donut\nvrhi\nvrhi_vk.vcxproj">
+      <Project>{1A95D9EB-C766-3016-847D-3F38B9106663}</Project>
+      <Name>nvrhi_vk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\config.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\forwards.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\json_features.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\value.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\reader.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\version.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\writer.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\include\json\assertions.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\donut\thirdparty\jsoncpp\src\lib_json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D561AB34-E152-3D3B-8277-D1C9D70228A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public API">
+      <UniqueIdentifier>{3EAA8EC1-B6E4-3A78-8B3A-2F8E010DB12F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E7949842-3EBA-315A-8A15-8D8AF7D37BAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

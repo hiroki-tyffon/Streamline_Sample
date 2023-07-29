@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\CMakeFiles\5840556a2ac39f804087a7b57955f963\CopyStreamlineDLLs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\streamline\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Tyffon\Repositories\ExpoC\Streamline_Sample\_build\streamline\CMakeFiles\CopyStreamlineDLLs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33A6CB40-0A28-3747-A137-AD3AC8BD715F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
